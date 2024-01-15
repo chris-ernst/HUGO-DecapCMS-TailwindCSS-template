@@ -79,6 +79,12 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+      - file: "site/content/tearsheets/_index.md"
+        label: "Tearsheets Page"
+        name: "tearsheets"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
   - name: "site_settings"
     label: "Site Settings"
     files:
