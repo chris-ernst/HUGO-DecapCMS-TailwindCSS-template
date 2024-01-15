@@ -1,6 +1,7 @@
 ---
-title: "Tearsheets"
-description: "A collection of published works featuring our photography in various media outlets."
+title: Tearsheets
+description: A collection of published works featuring our photography in
+  various media outlets. Modifications?
 type: tearsheets
 draft: false
 ---
