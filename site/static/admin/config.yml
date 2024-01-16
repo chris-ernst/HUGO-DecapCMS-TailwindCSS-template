@@ -16,6 +16,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "tearsheet"
     label: "Tearsheet"
     folder: "site/content/tearsheet"
@@ -90,12 +91,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-      - file: "site/content/tearsheets/_index.md"
-        label: "Tearsheets Page"
-        name: "tearsheets"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: text }
   - name: "site_settings"
     label: "Site Settings"
     files:
