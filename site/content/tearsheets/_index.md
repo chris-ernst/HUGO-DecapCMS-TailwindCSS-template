@@ -1,7 +1,7 @@
 ---
 title: Tearsheets
 description: A collection of published works featuring our photography in
-  various media outlets. Modifications?
+  various media outlets. Modifications synched!
 type: tearsheets
 draft: false
 ---
